@@ -1,11 +1,22 @@
-import React from 'react'
-import Products from './Products';
+import { useState } from 'react'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
+// import './App.css'
+import Fc from './Fuctionalcomp'
+// import ClassComp from './classcomp'
+import Click from './Click'
+
+
 
 function App() {
- return (
+  return(
     <div>
-      <Products />
+      <h1>hello </h1>
+      <Fc />
+      <Click />
+      {/* <ClassComp /> */}
     </div>
+    
   )
 }
 
